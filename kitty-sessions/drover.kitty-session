@@ -1,0 +1,4 @@
+launch 'kitty-unserialize-data={"id": 1, "cmd_at_shell_startup": ["kitten", "ssh", "--kitten=env=KITTY_SI_RUN_COMMAND_AT_STARTUP=tmux attach", "mnemosyne"]}'
+focus
+
+focus_tab 0

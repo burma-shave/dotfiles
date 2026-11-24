@@ -7,4 +7,5 @@ cd "$(dirname "$0")" || exit
 mkdir -p ~/.config
 ln -sT "$PWD/nvim" ~/.config/nvim
 ln -sT "$PWD/.tmux.conf" ~/.tmux.conf
+ln -sT "$PWD/kitty-sessions/drover.kitty-session" ~/drover.kitty-session
 exit 0
